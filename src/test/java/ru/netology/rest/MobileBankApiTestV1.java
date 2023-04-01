@@ -5,9 +5,9 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-class MobileBankApiTestV1 {
+public class MobileBankApiTestV1 {
     @Test
-    void shouldMakePOSTRequest() {
+    public void shouldMakePOSTRequest() {
 
         given()
                 .baseUri("https://postman-echo.com")
